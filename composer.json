@@ -1,0 +1,24 @@
+{
+    "name": "delboy1978uk/stack",
+    "description": "A stack project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek McLean",
+            "email": "delboy1978uk@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-server-middleware": "^1.0",
+        "laminas/laminas-diactoros": "^2.2"
+    },
+    "require-dev":{
+        "codeception/codeception":"*",
+        "codeception/module-asserts": "^1.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "Del\\":"src/"
+        }
+    }
+}
