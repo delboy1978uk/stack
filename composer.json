@@ -10,7 +10,7 @@
     ],
     "require": {
         "psr/http-server-middleware": "^1.0",
-        "laminas/laminas-diactoros": "^2.2"
+        "laminas/laminas-diactoros": "^2.21"
     },
     "require-dev":{
         "codeception/codeception":"*",
